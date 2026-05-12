@@ -1,0 +1,9 @@
+{
+  "LambdaFunctionConfigurations": [
+    {
+      "Id": "s3-trigger",
+      "LambdaFunctionArn": "arn:aws:lambda:eu-central-1:471613014056:function:invoice_processing",
+      "Events": ["s3:ObjectCreated:*"]
+    }
+  ]
+}
